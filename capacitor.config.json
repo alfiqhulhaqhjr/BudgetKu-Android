@@ -1,0 +1,6 @@
+{
+  "appId": "com.budgetku.personal",
+  "appName": "BudgetKu",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

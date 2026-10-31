@@ -1,0 +1,18 @@
+{
+  "name": "budgetku-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BudgetKu - Catatan Keuangan Pribadi untuk Android",
+  "scripts": {
+    "sync:android": "npx cap sync android",
+    "open:android": "npx cap open android",
+    "build:android": "cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
