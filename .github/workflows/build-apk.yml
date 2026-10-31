@@ -26,6 +26,8 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          accept-sdk-license: true
 
       - name: Install dependencies & Capacitor Android
         run: |
